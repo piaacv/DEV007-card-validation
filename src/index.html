@@ -2,13 +2,28 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Tarjeta de crédito válida</title>
+    <title>Valida tu tarjeta de crédito</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <header></header>
-    <main></main>
+    <div id="content">
+    <header> 
+      <h1>Ya casi terminas tu compra</h1>
+      <p class="welcome">Válida tu tarjeta de crédito para finalizar tu compra</p>
+      </header>
+    <main>
+      <div>
+      <img class="cardLogo" src="images/creditcard.png" alt="tarjeta crédito">
+    </div>
+      <p class="messageResult" id="resultMessage"></p>
+      <div id="validation">
+        <label for="Valida">Ingresa el número de tu tarjeta de crédito</label>
+        <input type="number" id="creditNumber" name="valida" inputmode="numeric"/>
+        <button id="cardButton">Validar</button>
+        </div>
+    </main>
     <footer></footer>
     <script src="index.js" type="module"></script>
+    </div> 
   </body>
 </html>
