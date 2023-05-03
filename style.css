@@ -1,0 +1,44 @@
+h1{
+  color: crimson;
+}
+
+
+body{
+  text-align: center;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  position:center;
+}
+
+img.cardLogo{
+  width: 300px;
+  height: 200px;
+}
+
+.welcome{
+  text-align: center;
+  color:steelblue;
+  font-weight: bold;
+  font-size: medium;
+}
+
+button{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-weight: bold;
+  color:ghostwhite;
+  border-bottom-left-radius: 100px;
+  width: 100px;
+  background-color: crimson;
+}
+
+
+p.messageResult {
+  text-align: center;
+  background-color:crimson;
+  color: ghostwhite;
+  font-weight: lighter;
+  display: inline-block;
+ 
+}
+
+
+
